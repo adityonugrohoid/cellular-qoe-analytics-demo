@@ -1,0 +1,20 @@
+name: qoe-demo
+channels:
+  - defaults
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+  - https://repo.anaconda.com/pkgs/msys2
+dependencies:
+  - matplotlib
+  - notebook
+  - numpy
+  - pandas
+  - requests
+  - faker
+  - seaborn
+  - scikit-learn
+  - fastparquet
+  - pyarrow
+  - python-dotenv
+  - ipywidgets
+prefix: C:\Users\adityo.nugroho.id\anaconda3\envs\qoe-demo
