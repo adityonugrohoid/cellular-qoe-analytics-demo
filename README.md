@@ -1,8 +1,8 @@
 <div align="center">
 
-# cellular-qoe-analytics-demo
+# Cellular QoE Analytics Demo
 
-[![Python](https://img.shields.io/badge/python-3.x-blue.svg)](https://www.python.org/downloads/)
+[![Python 3.x](https://img.shields.io/badge/python-3.x-blue.svg)](https://www.python.org/downloads/)
 [![Jupyter](https://img.shields.io/badge/jupyter-notebook-orange.svg)](https://jupyter.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
@@ -107,7 +107,7 @@ graph TD
 Notebook 03 (alerting) reads Telegram credentials from `.env`. Create one if you want live pushes:
 
 ```bash
-# .env (optional — only needed for Telegram alerting in notebook 03)
+# .env (optional, only needed for Telegram alerting in notebook 03)
 TELEGRAM_BOT_TOKEN=your_bot_token_here
 TELEGRAM_CHAT_ID=your_chat_id_here
 ```
